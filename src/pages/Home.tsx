@@ -35,7 +35,7 @@ export default function Home() {
     ]
 
     const partners = [
-        "/partners/ibp.png", "/partners/icarda.png", "/partners/cirad.png", "/partners/ebs.png", "/partners/alliance.png", "/partners/ird.png", "/partners/cgiar.png", "/partners/usda.png"
+        "partners/ibp.png", "partners/icarda.png", "partners/cirad.png", "partners/ebs.png", "partners/alliance.png", "partners/ird.png", "partners/cgiar.png", "partners/usda.png"
     ]
 
     const halfLength = Math.ceil(partners.length / 2);
@@ -62,9 +62,6 @@ export default function Home() {
         {
             question: "What types of data formats can be used to feed the MongoDB database in Gigwa ?",
             answer: "Gigwa supports a variety of data formats, including VCF, Hapmap, Plink, Flapjack, and Intertek. These formats can be imported into the MongoDB database for analysis and visualization."
-        },
-        {
-            question: "I have a question that is not listed here. How can I contact the Gigwa team for support ?",
         }
     ]
     
@@ -74,13 +71,13 @@ export default function Home() {
                 <section className="flex flex-col gap-12 w-full md:w-4/5 pt-32 md:p-0">
                     <div className="flex flex-col items-center gap-8">
                     {/* <h1>Gigwa</h1> */}
-                    <img src="/logo.png" alt="gigwa" className="w-1/4 rounded-md" />
+                    <img src="logo.png" alt="gigwa" className="w-1/4 rounded-md" />
                     <h6>The ultimate tool to to manage genotyping data</h6>
                     </div>
                     <div className="px-8 py-32">
                         <div className="grid gap-8 items-start justify-center relative">
                                 <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-light-primary rounded-lg blur opacity-75"></div>
-                                <img src="/app.svg" alt="app" className="relative rounded-lg leading-none flex items-center  w-full" />
+                                <img src="app.svg" alt="app" className="relative rounded-lg leading-none flex items-center  w-full" />
                         </div>
                     </div>
                 </section>
