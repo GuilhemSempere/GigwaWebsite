@@ -21,17 +21,17 @@ export default function Advantage({ version, advantages }: AdvantageProps) {
             <div className="flex flex-col md:flex-row md:gap-16 gap-6">
                 <div className="flex flex-col gap-6">
                     {firstColumn.map((advantage, index) => (
-                        <div className="flex flex-row gap-2 items-center">
+                        <div key={index} className="flex flex-row gap-2 items-center">
                             <LucideBadgeCheck className="min-w-6 min-h-6 max-w-6 max-h-6" />
-                            <h4 className="font-normal" key={index}>{advantage}</h4>
+                            <h4 className="font-normal" >{advantage}</h4>
                         </div>
                     ))}
                 </div>
                 <div className="flex flex-col gap-6">
                     {secondColumn.map((advantage, index) => (
-                        <div className="flex flex-row gap-2 items-center">
+                        <div key={index} className="flex flex-row gap-2 items-center">
                             <LucideBadgeCheck className="min-w-6 min-h-6 max-w-6 max-h-6" />
-                            <h4 className="font-normal" key={index}>{advantage}</h4>
+                            <h4 className="font-normal">{advantage}</h4>
                         </div>
                     ))}
                 </div>
