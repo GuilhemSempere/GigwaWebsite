@@ -45,7 +45,7 @@ export default function Home() {
     const faqs = [
         {
             question: "Is Gigwa available for free ?",
-            answer: "Gigwa is an open-source software, and is available for free under the GNU General Public License v3.0. You can download it from the GitHub repository."
+            answer: "Gigwa is an open-source software, and is available for free under the Affero GNU General Public License v3.0. You can download it from the GitHub repository."
         },
         {
             question: "What does the acronym 'Gigwa' stand for, and how does it reflect the application's purpose ?",
@@ -70,9 +70,10 @@ export default function Home() {
                 <Navbar />
                 <section className="flex flex-col gap-12 w-full md:w-4/5 pt-32 md:p-0">
                     <div className="flex flex-col items-center gap-8">
-                    {/* <h1>Gigwa</h1> */}
-                    <img src="logo.png" alt="gigwa" className="w-1/4 rounded-md" />
-                    <h6>The ultimate tool to to manage genotyping data</h6>
+                    <div className="w-1/3 rounded-md bg-white p-2 flex justify-center">
+	                    <img src="logo.png" alt="gigwa" className="w-3/4" />
+	                </div>
+                    <h6>The ultimate tool to to manage high-density genotyping data</h6>
                     </div>
                     <div className="px-8 py-32">
                         <div className="grid gap-8 items-start justify-center relative">
