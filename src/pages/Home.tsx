@@ -84,7 +84,7 @@ export default function Home() {
 
                 <section id="features" className="flex flex-col items-center justify-center gap-12 md:gap-24 w-full md:w-10/12 pt-32 md:pt-60 md:pb-20">
                     <div className="flex gap-3 justify-center whitespace-nowrap">
-                        <h2>Main</h2><h2 className="text-primary">features</h2>
+                        <h2>Main</h2><h2 className="text-primary">features :</h2>
                     </div>
                     <Spotlight className="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 group" data-spotlight>
                         {cards.map((card, index) => (
